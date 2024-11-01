@@ -1,0 +1,70 @@
+/* SWStrava Clubs Plugin */
+
+#sws_div {
+     background-color:#FC4C02;
+     border:1px;
+     border-collapse: separate;
+     border-spacing: 0;
+     border: 2px solid #FC4C02;
+     border-radius: 5px;
+     -moz-border-radius: 5px;
+     padding: 3px;
+
+}
+
+#sws_activities {
+     width:100%;
+     font-size:9px;
+     color:#000000;
+     border: none;
+}
+
+#sws_activities td tr {
+	border: none;
+      border-collapse: collapse;
+      display:block;
+      height:100%;
+      width:100%;
+      padding: 2px 2px 2px 2px;
+}
+
+#sws_activities tr:nth-child(odd) {
+      background-color: #FFCC99;
+}
+
+#sws_activities tr:nth-child(even) {
+      background-color: #FFFFFF;
+}
+
+
+.sws_th {
+       font-weight:bold;
+       text-align:center;
+       border: none;
+       background-color:#FC4C02;
+       color:#FFFFFF;
+}
+
+.sws_icon {
+        width:100%;
+        border: none;
+}
+
+.sws_image {
+        background-color:#FC4C02;
+        text-align:center;
+}
+
+.sws_td {
+        text-align:center;
+        padding: 2px 2px 2px 2px;
+
+}
+
+
+.sws_link {
+       font-size:9px;
+       color:#000000 !important;
+       text-decoration:none;
+}
+
